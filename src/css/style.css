@@ -113,9 +113,10 @@ a:hover, a:focus {
 }
 
 ul, ol {
-    margin: 0;
+    margin: 15px;
     padding: 0;
-    list-style: none
+   /* list-style: square */
+   list-style-type: square;
 }
 
 /* -- section  -- */
