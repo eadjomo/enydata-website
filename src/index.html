@@ -27,6 +27,8 @@
 
 	<!-- Custom stlylesheet -->
 	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	
+	<link rel="icon" href="img/logo-icon.png" type="image/png" sizes="16x16">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -70,8 +72,8 @@
 				<ul class="main-nav nav navbar-nav navbar-right">
 					<li><a href="#home">Home</a></li>
 					<li><a href="#about">About Us</a></li>
-					<!-- <li><a href="#portfolio">Portfolio</a></li> -->
-					<li><a href="#service">Technology</a></li>
+					<li><a href="#service">Services</a></li>
+					<li><a href="#technology">Technology</a></li>
 					<!-- <li><a href="#pricing">Prices</a></li> -->
 					<!-- <li><a href="#team">Team</a></li> -->
 					<li class="has-dropdown"><a href="#blog">Blog</a>
@@ -113,6 +115,32 @@
 
 	<!-- About -->
 	<div id="about" class="section md-padding">
+		<!-- Container -->
+		<div class="container">
+			<!-- Row -->
+			<div class="row">
+				<!-- Section header -->
+
+				<div class="section-header text-center">
+					<h2 class="title">We allow you to innovate</h2>
+						<p>We are a younger bigdata startup who design and implement a technical solutions to companies who want to leverage data and machine 
+					learning algorithms for business value.</p>
+
+				</div>	
+				
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					
+				</div>				
+			</div>
+			<!-- /Row -->
+		</div>
+		<!-- /Container -->
+	</div>
+	<!-- /About -->
+	
+		<!-- Service -->
+	<div id="service" class="section md-padding">
 
 		<!-- Container -->
 		<div class="container">
@@ -122,56 +150,44 @@
 
 				<!-- Section header -->
 				<div class="section-header text-center">
-					<h2 class="title">We allow you to innovate</h2>
+					<h2 class="title">What we offer</h2>
 				</div>
 				<!-- /Section header -->
 
-				<!-- about -->
-				<div class="col-md-4">
-					<div class="about">
-						<i class="fa fa-cogs"></i>
-						<h3>Data Engineering</h3>
-						<p>We have extensive experience in bigdata infrastructure management and application architecture consulting</p>
-						<p>We also get involved in remedial work, where performance issues or blockers to scale are encountered.</p>
-						<p>Our Engineering practice can be broken down into four sub-specialisms:</p>						
-							<ul class="ul">
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+							<h3>Data Engineering</h3>
+						<p style="text-align:center">We have extensive experience in bigdata infrastructure management and application architecture consulting. We also get involved in remedial work, where performance issues or blockers to scale are encountered.
+						Our Engineering practice can be broken down into four sub-specialisms:</p>						
+							<ul align="left" style="list-style-type:circle">
 								<li>Streaming analytics</li>
 								<li>Distributed processing</li>
 								<li>Distributed machine learning</li>
 								<li>Integration</li>
 							</ul>
-
 	
-						<!-- <a href="#">Read more</a> -->
 					</div>
 				</div>
-				<!-- /about -->
+				<!-- /service -->
 
-				<!-- about -->
-				<div class="col-md-4">
-					<div class="about">
-						<i class="fa fa-magic"></i>
+			<div class="col-md-4 col-sm-6">
+					<div class="service">
 						<h3>Data Science</h3>
 						<p>Our Data Science consultants have a good knowledge of statistics and machine learning, 
 						and a genuine interest in business context and outcomes. 
 						They are highly quantitative and used to delivering well built and well tested code</p>
-						<!-- <a href="#">Read more</a> -->
 					</div>
 				</div>
-				<!-- /about -->
-
-				<!-- about -->
-				<div class="col-md-4">
-					<div class="about">
-						<i class="fa fa-mobile"></i>
-						<h3>Training</h3>
-						<p>Our consultants deliver custom onsite training - from the basics of big data and distributed computing to 
-						more advanced topics such as performance tuning Apache Spark. 
-						We also train clients on managing productive teams through our Data Delivery Framework.</p>
-						<a href="#">Read more</a>
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+							<h3>Training</h3>
+						<p>Our consultants deliver custom onsite training from the basics of big data and distributed computing to 
+						more advanced topics such as performance tuning Apache Spark.</p>
+						<a href="#contact">Contact Us</a>
 					</div>
 				</div>
-				<!-- /about -->
+				<!-- /service -->
 
 			</div>
 			<!-- /Row -->
@@ -180,10 +196,10 @@
 		<!-- /Container -->
 
 	</div>
-	<!-- /About -->
+	<!-- /Service -->
 
 	<!-- Service -->
-	<div id="service" class="section md-padding">
+	<div id="technology" class="section md-padding">
 
 		<!-- Container -->
 		<div class="container">
@@ -197,34 +213,48 @@ We work with a leading tech stack, mostly open source. We have a serious commitm
 				
 			<!-- Row -->
 			<div class="row">
-
 					<div class="column">
 						<img src="./img/hadoop.png" class="img-responsive" alt="">
+						<img src="./img/elasticsearch.png" class="img-responsive" alt="">
 					</div>
-					  <div class="column">
+					 <!--  <div class="column">
 						<img src="./img/spark.png" class="img-responsive" alt="">
-					  </div>
+					  </div> -->
 					   <div class="column">
+					   <img src="./img/spark.png" class="img-responsive" alt="">
 						<img src="./img/kafka.png" class="img-responsive" alt="">
 					  </div>
 					   <div class="column">
-						<img src="./img/elasticsearch.png" class="img-responsive" alt="">
-					  </div>
-					   <div class="column">
 						<img src="./img/hbase.png" class="img-responsive" alt="">
-					  </div>
-					<div class="column">
 						<img src="./img/scala.png" class="img-responsive" alt="">
 					  </div>
-					   <div class="column">
-						<img src="./img/java.png" class="img-responsive" alt="">
-					  </div>
-					   <div class="column">
-						<img src="./img/zeppelin.png" class="img-responsive" alt="">
-					  </div>
 					  <div class="column">
+						<img src="./img/java.png" class="img-responsive" alt="">
 						<img src="./img/mongo.png" class="img-responsive" alt="">
-					  </div>
+					  </div> 
+					 <!--   <div class="column">
+						<img src="./img/elasticsearch.png" class="img-responsive" alt="">
+					  </div> -->
+					  <!--  <div class="column">
+						<img src="./img/hbase.png" class="img-responsive" alt="">
+						<img src="./img/scala.png" class="img-responsive" alt="">
+						<img src="./img/java.png" class="img-responsive" alt="">
+						<img src="./img/mongo.png" class="img-responsive" alt="">
+					  </div> -->
+					<!-- <div class="column">
+						<img src="./img/scala.png" class="img-responsive" alt="">
+					  </div> 
+					 <!--   <div class="column">
+						<img src="./img/java.png" class="img-responsive" alt="">
+						 <img src="./img/zeppelin.png" class="img-responsive" alt=""> 
+						<img src="./img/mongo.png" class="img-responsive" alt="">
+					  </div> -->
+					  <!--  <div class="column">
+						<img src="./img/zeppelin.png" class="img-responsive" alt="">
+					  </div> -->
+					 <!--  <div class="column">
+						<img src="./img/mongo.png" class="img-responsive" alt="">
+					  </div> -->
 		<!-- service -->
 				<!-- <div class="col-md-4 col-sm-6">
 					<div class="service">
@@ -337,12 +367,12 @@ We work with a leading tech stack, mostly open source. We have a serious commitm
 						</div>
 						<div class="blog-content">
 							<ul class="blog-meta">
-								<li><i class="fa fa-user"></i>John doe</li>
-								<li><i class="fa fa-clock-o"></i>18 Oct</li>
-								<li><i class="fa fa-comments"></i>57</li>
+								<li><i class="fa fa-user"></i>Essale ADJOMO</li>
+								<li><i class="fa fa-clock-o"></i>4 Sept</li>
+								<!-- <li><i class="fa fa-comments"></i>0</li> -->
 							</ul>
-							<h3>Molestie at elementum eu facilisis sed odio</h3>
-							<p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
+							<h3>Apache Hive 3.0.0 in ACID mode: Utopia or reality? </h3>
+							<p></p>
 							<a href="blog-single.html">Read more</a>
 						</div>
 					</div>
@@ -357,12 +387,12 @@ We work with a leading tech stack, mostly open source. We have a serious commitm
 						</div>
 						<div class="blog-content">
 							<ul class="blog-meta">
-								<li><i class="fa fa-user"></i>John doe</li>
-								<li><i class="fa fa-clock-o"></i>18 Oct</li>
-								<li><i class="fa fa-comments"></i>57</li>
+								<li><i class="fa fa-user"></i>Essale ADJOMO</li>
+								<li><i class="fa fa-clock-o"></i>18 May</li>
+								<!-- <li><i class="fa fa-comments"></i>0</li> -->
 							</ul>
-							<h3>Molestie at elementum eu facilisis sed odio</h3>
-							<p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
+							<h3>Bigdata project CI/CD with Jenkins</h3>
+							<p></p>
 							<a href="blog-single.html">Read more</a>
 						</div>
 					</div>
@@ -377,12 +407,12 @@ We work with a leading tech stack, mostly open source. We have a serious commitm
 						</div>
 						<div class="blog-content">
 							<ul class="blog-meta">
-								<li><i class="fa fa-user"></i>John doe</li>
-								<li><i class="fa fa-clock-o"></i>18 Oct</li>
-								<li><i class="fa fa-comments"></i>57</li>
+								<li><i class="fa fa-user"></i>Essale ADJOMO</li>
+								<li><i class="fa fa-clock-o"></i>2 April</li>
+								<!-- <li><i class="fa fa-comments"></i>57</li> -->
 							</ul>
-							<h3>Molestie at elementum eu facilisis sed odio</h3>
-							<p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
+							<h3>Oozie Coordinators with SLA and Datasets</h3>
+							<p></p>
 							<a href="blog-single.html">Read more</a>
 						</div>
 					</div>
@@ -495,7 +525,7 @@ We work with a leading tech stack, mostly open source. We have a serious commitm
 
 					<!-- footer copyright -->
 					<div class="footer-copyright">
-						<p>Copyright © 2017. All Rights Reserved. Designed by <a href="https://okulab.co" target="_blank">okulab</a></p>
+						<p>Copyright © 2018. All Rights Reserved. Designed by <a href="https://okulab.co" target="_blank">okulab</a></p>
 					</div>
 					<!-- /footer copyright -->
 
